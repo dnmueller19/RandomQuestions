@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Questions</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+             crossorigin="anonymous">
+    <link rel="stylesheet" href="RandomStyle.css">
+    <script src="RandomQuestionGen.js"></script>
+</head>
+
+<body>
+    <header>
+    <div  id="title">Random Trivia</div>
+    <div class = "earnings">
+        <h3>$<span id="score"></span></h3>
+    </div>
+  
+    <div id="buttons">
+            <button id="start-game" class="btn btn-primary">Start Game</button>
+            <button id="new-question" class="btn btn-primary">Get Question</button>
+            
+    </div>
+</header>
+<main>
+    <section>
+            <p>Question: <span id="question"></span></p>
+            <span id="question"></span>
+            <input placeholder="Answer Here" id="input"/>
+            <button id="submit">Submit</button>
+            <p>Answer: <span id="answer"></span></p>
+    </section>
+        
+</main>
+    
+    
+</body>
